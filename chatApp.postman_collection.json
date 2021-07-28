@@ -1,0 +1,51 @@
+{
+	"id": "59ddac78-15d4-7229-66c2-739604eabac8",
+	"name": "chatApp",
+	"description": "",
+	"order": [
+		"bb78fdcd-6e1a-aadd-6245-55ef3504bd49"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1627395354837,
+	"owner": "2334684",
+	"public": false,
+	"requests": [
+		{
+			"id": "bb78fdcd-6e1a-aadd-6245-55ef3504bd49",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3002/api/chats/get_chats",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "pawan",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1627450933528,
+			"name": "http://localhost:3000/api/users/get_chats",
+			"description": "",
+			"collectionId": "59ddac78-15d4-7229-66c2-739604eabac8",
+			"responses": []
+		}
+	]
+}
